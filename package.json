@@ -1,0 +1,26 @@
+{
+  "name": "migrate-mongo-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node pre-deploy.js && node node_modules/migrate-mongo/bin/migrate-mongo.js up",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stherrienaspnet/migrate-mongo-issue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stherrienaspnet/migrate-mongo-issue/issues"
+  },
+  "homepage": "https://github.com/stherrienaspnet/migrate-mongo-issue#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "migrate-mongo": "^3.0.4",
+    "mongodb": "^3.1.6",
+    "recursive-copy": "^2.0.9"
+  }
+}
